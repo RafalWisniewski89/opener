@@ -1,0 +1,10 @@
+mixin modal(cl, st)
+	.c-modal.js-modal(class=cl style=st)
+		.c-modal__scroller
+			.c-modal__aligner
+				.c-modal__wrapper
+					.c-modal__overlay.js-overlay
+					.c-modal__body
+						.c-modal__body__inner
+							a.c-btn-close.js-modal-close(href='#') x
+							block

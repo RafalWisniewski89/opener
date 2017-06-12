@@ -1,0 +1,389 @@
+/* ==========================================================================
+   Variables
+   ========================================================================== */
+/* Colors
+========================================================================== */
+/* Fonts
+========================================================================== */
+/* Sizes
+========================================================================== */
+/* ==========================================================================
+   Reset
+   ========================================================================== */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    overflow-x: hidden;
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+}
+
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+/* ==========================================================================
+   Global
+   ========================================================================== */
+html,
+body {
+    width: 100%;
+    min-width: 320px;
+    line-height: 1.2;
+    font-family: Arial, Tahoma, sans-serif;
+    font-size: 12px;
+    color: #000;
+    background: #fff;
+}
+
+.scroll-lock {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    word-wrap: break-word;
+    outline: none;
+}
+
+a,
+button {
+    transition: opacity 300ms ease-in-out;
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover,
+button:hover {
+    opacity: 0.7;
+}
+
+.no-opacity {
+    opacity: 1;
+}
+
+.no-opacity:hover {
+    opacity: 1;
+}
+
+.link {
+    text-decoration: underline;
+}
+
+.link:hover {
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    border: 0;
+}
+
+label {
+    cursor: pointer;
+}
+
+textarea {
+    resize: none;
+}
+
+fieldset {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* ==========================================================================
+   Fonts
+   ========================================================================== */
+/* ==========================================================================
+   Helpers
+   ========================================================================== */
+/* ==========================================================================
+   Header
+   ========================================================================== */
+.l-header {
+    display: block;
+}
+
+/* ==========================================================================
+   Main
+   ========================================================================== */
+/*========================================================================== */
+.l-main {
+    display: block;
+}
+
+/* ==========================================================================
+   Aside
+   ========================================================================== */
+.l-aside {
+    display: block;
+}
+
+/* ==========================================================================
+   Footer
+   ========================================================================== */
+.l-footer {
+    display: block;
+}
+
+/* ==========================================================================
+   Buttons
+   ========================================================================== */
+.c-btn-close {
+    width: 25px;
+    height: 25px;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    line-height: 23px;
+    display: block;
+    border-radius: 100px;
+}
+
+/* ==========================================================================
+   Forms
+   ========================================================================== */
+::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: #000;
+}
+
+::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #000;
+}
+
+:-ms-input-placeholder {
+    /* IE 10+ */
+    color: #000;
+}
+
+:-moz-placeholder {
+    /* Firefox 18- */
+    color: #000;
+}
+
+/* ==========================================================================
+   Navigations
+   ========================================================================== */
+/* ==========================================================================
+   Components
+   ========================================================================== */
+.c-commponent-1 {
+    font-size: 14px;
+}
+
+@media (max-width: 1366px) {
+    .c-commponent-1 {
+        font-size: 12px;
+    }
+}
+
+/*========================================================================== */
+.c-commponent-2 {
+    height: 100px;
+}
+
+@media (max-width: 1366px) {
+    .c-commponent-2 {
+        height: 80px;
+    }
+}
+
+/*========================================================================== */
+/* ==========================================================================
+   Modals
+   ========================================================================== */
+.c-modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    margin: auto;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+
+.c-modal__scroller {
+    width: 100vw;
+    height: 100vh;
+    z-index: 1000;
+    overflow: auto;
+    position: fixed;
+}
+
+.c-modal__aligner {
+    display: table;
+    width: 100vw;
+    height: 100vh;
+}
+
+.c-modal__wrapper {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.c-modal__body {
+    margin: auto;
+    max-width: 1000px;
+    height: 500px;
+    position: relative;
+    z-index: 1000;
+    background-color: #fff;
+}
+
+.c-modal__body__inner {
+    padding: 10px;
+}
+
+.c-modal__overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0;
+    z-index: 999;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.c-modal .c-btn-close {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    z-index: 1;
+}
+
+/* ==========================================================================
+   Overwritten plugins styles
+   ========================================================================== */

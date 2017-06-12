@@ -1,0 +1,21 @@
+// main.scss
+
+@import 'base/vars';
+@import 'base/reset';
+@import 'base/global';
+@import 'base/fonts';
+@import 'base/helpers';
+
+@import 'layout/header';
+@import 'layout/main';
+@import 'layout/aside';
+@import 'layout/footer';
+
+@import 'components/buttons';
+@import 'components/forms';
+@import 'components/navigations';
+@import 'components/components';
+@import 'components/modals';
+@import 'components/plugins-user';
+
+
