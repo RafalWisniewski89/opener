@@ -1,7 +1,26 @@
 /* ==========================================================================
    Header
-   ========================================================================== */
+   ==========================================================================*/
 
 .l-header {
     display: block;
+    height: 45px;
+    background-color: #e2ddd5;
+}
+.l-header a {
+	float: left;
+	height: 100%;
+}
+.l-header ul {
+	float: right;
+}
+
+.l-header li {
+	max-width: 100%;
+	float: left;
+	font-size: 16px;
+	line-height: 45px;
+	border-left: 1px solid #716e6a;
+	text-align: center;
+	padding: 0 40px;
 }
