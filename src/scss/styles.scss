@@ -3,13 +3,14 @@
 @import 'base/vars';
 @import 'base/reset';
 @import 'base/global';
-@import 'base/fonts';
 @import 'base/helpers';
 
 @import 'layout/header';
-@import 'layout/main';
+@import 'layout/main-container';
 @import 'layout/aside';
 @import 'layout/footer';
+@import 'layout/page';
+@import 'layout/informations';
 
 @import 'components/buttons';
 @import 'components/forms';
@@ -17,5 +18,6 @@
 @import 'components/components';
 @import 'components/modals';
 @import 'components/plugins-user';
+
 
 

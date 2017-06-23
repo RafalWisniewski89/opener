@@ -218,30 +218,27 @@ fieldset {
 }
 
 /* ==========================================================================
-   Fonts
-   ========================================================================== */
-/* ==========================================================================
    Helpers
    ========================================================================== */
 /* ==========================================================================
    Header
    ==========================================================================*/
-.l-header {
+.main-header {
     display: block;
     height: 45px;
     background-color: #e2ddd5;
 }
 
-.l-header a {
+.main-header a {
     float: left;
     height: 100%;
 }
 
-.l-header ul {
+.main-header ul {
     float: right;
 }
 
-.l-header li {
+.main-header li {
     max-width: 100%;
     float: left;
     font-size: 16px;
@@ -251,19 +248,62 @@ fieldset {
     padding: 0 40px;
 }
 
-/* ==========================================================================
-   Main
-   ========================================================================== */
-.l-app {
-    position: relative;
-    max-width: 1401px;
-    width: 100%;
-    margin: auto;
+.main-header img {
+    padding: 9px;
 }
 
-/*========================================================================== */
-.l-main {
+/* ==========================================================================
+   Main-container section
+   ========================================================================== */
+.main-container {
     display: block;
+    height: 465px;
+    background-image: url(../img/main_container.png);
+    color: #fff;
+}
+
+.main-container-inner {
+    display: block;
+    width: 610px;
+    margin: 0 auto;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.main-container-inner-logo {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    padding-left: 20%;
+    padding-bottom: 15px;
+}
+
+.main-container-inner-logo h1 {
+    line-height: 31px;
+    font-size: 21px;
+    padding-left: 10px;
+}
+
+.main-container-inner {
+    font-weight: 300;
+}
+
+.main-container-inner h2 {
+    font-size: 48px;
+}
+
+.main-container-inner p {
+    font-size: 36px;
+    padding-bottom: 28px;
+}
+
+.main-container-inner button {
+    width: 280px;
+    height: 50px;
+}
+
+.main-container-inner button a {
+    padding: 16px 108px 17px 108px;
 }
 
 /* ==========================================================================
@@ -281,18 +321,79 @@ fieldset {
 }
 
 /* ==========================================================================
+   Page
+   ========================================================================== */
+.page {
+    max-width: 1401px;
+    width: 100%;
+    margin: auto;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.informations {
+    height: 795px;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.conditions {
+    width: 50%;
+}
+
+.conditions-top {
+    text-align: center;
+    padding: 45px 95px 30px 95px;
+}
+
+.conditions-top h3 {
+    font-size: 32px;
+    font-weight: 300;
+}
+
+.conditions ul li {
+    text-align: center;
+    width: 350px;
+    font-size: 18px;
+    float: left;
+}
+
+.conditions-first-paragraph {
+    padding: 0 20% 0 20%;
+}
+
+.conditions-second-paragraph {
+    padding: 0 20% 0 20%;
+}
+
+.conditions-third-paragraph {
+    padding: 0 12% 0 12%;
+}
+
+.conditions-fourth-paragraph {
+    padding: 0 10% 0 10%;
+}
+
+.conditions ul li img {
+    padding-top: 55px;
+    padding-bottom: 45px;
+    padding-left: 40%;
+}
+
+.registration {
+    width: 50%;
+    background-color: #e2ddd5;
+}
+
+/* ==========================================================================
    Buttons
    ========================================================================== */
-.c-btn-close {
-    width: 25px;
-    height: 25px;
-    background-color: #000;
-    color: #fff;
-    text-align: center;
-    font-size: 18px;
-    line-height: 23px;
-    display: block;
-    border-radius: 100px;
+.main-button {
+    border-radius: 6px;
+    background-color: #ff671b;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
 }
 
 /* ==========================================================================

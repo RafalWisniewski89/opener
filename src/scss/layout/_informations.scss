@@ -1,0 +1,42 @@
+.informations {
+	height: 795px;
+	display: flex;
+}
+.conditions {
+	width: 50%;
+}
+.conditions-top {
+	text-align: center;
+	padding: 45px 95px 30px 95px;
+}
+.conditions-top h3 {
+	font-size: 32px;
+	font-weight: 300;
+}
+.conditions ul li {
+	text-align: center;
+	width: 350px;
+	font-size: 18px;
+	float: left;
+}
+.conditions-first-paragraph {
+	padding: 0 20% 0 20%;
+}
+.conditions-second-paragraph {
+	padding: 0 20% 0 20%;
+}
+.conditions-third-paragraph {
+	padding: 0 12% 0 12%;
+}
+.conditions-fourth-paragraph {
+	padding: 0 10% 0 10%;
+}
+.conditions ul li img {
+	padding-top: 55px;
+	padding-bottom: 45px;
+	padding-left: 40%;
+}
+.registration{
+	width: 50%;
+	background-color: #e2ddd5;
+}

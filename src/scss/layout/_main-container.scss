@@ -1,0 +1,44 @@
+/* ==========================================================================
+   Main-container section
+   ========================================================================== */
+
+.main-container {
+    display: block;
+    height: 465px;
+    background-image: url(../img/main_container.png);
+    color: #fff;
+}
+.main-container-inner {
+	display: block;
+	width: 610px;
+	margin: 0 auto;
+	padding-top: 100px;
+	text-align: center;
+}
+.main-container-inner-logo {
+	display: flex;
+	padding-left: 20%;
+	padding-bottom: 15px;
+}
+.main-container-inner-logo h1 {
+	line-height: 31px;
+	font-size: 21px;
+	padding-left: 10px;
+}
+.main-container-inner {
+	font-weight: 300;
+}
+.main-container-inner h2 {
+	font-size: 48px;
+}
+.main-container-inner p {
+	font-size: 36px;
+	padding-bottom: 28px;
+}
+.main-container-inner button {
+	width: 280px;
+	height: 50px;
+}
+.main-container-inner button a {
+	padding: 16px 108px 17px 108px;
+}
