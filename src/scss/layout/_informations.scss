@@ -5,11 +5,9 @@
 .conditions {
 	width: 50%;
 }
-.conditions-top {
+.conditions h3 {
 	text-align: center;
 	padding: 45px 95px 30px 95px;
-}
-.conditions-top h3 {
 	font-size: 32px;
 	font-weight: 300;
 }
@@ -39,4 +37,63 @@
 .registration{
 	width: 50%;
 	background-color: #e2ddd5;
+}
+.registration h3 {
+	font-size: 32px;
+	font-weight: 300;
+	text-align: center;
+	padding: 45px 95px 30px 95px;
+}
+.surprise-form-padding {
+	padding: 18px 80px 18px 80px;
+}
+.surprise-form-padding p{
+	padding-bottom: 18px;
+}
+.form-headline {
+	font-size: 21px;
+	font-weight: 300;
+}
+.surprise-form label{
+	display: block;
+	padding-bottom: 18px;
+	font-size: 16px;
+}
+.surprise-form span {
+	display: block;
+	padding-bottom: 18px;
+	font-size: 16px;
+}
+.surprise-form input[type=text] {
+	width: 100%;
+	padding: 9px;
+	border: 1px solid black;
+	border-radius: 3px;
+}
+.surprise-form textarea {
+	width: 100%;
+	padding: 9px;
+	border: 1px solid black;
+	border-radius: 3px;
+}
+input[type=checkbox] + label {
+	display: block;
+}
+input[type=checkbox] {
+	display: none;
+}
+input[type=checkbox] + label:before {
+	padding: 8px;
+	content: "\2714";
+	border: 1px solid #000;
+	border-radius: 3px;
+	color: transparent;
+	background-color: #fff;
+	vertical-align: bottom;
+}
+input[type=checkbox]:checked + label:before {
+	background-color: #fff;
+}
+.submit-form-button {
+	float: right;
 }

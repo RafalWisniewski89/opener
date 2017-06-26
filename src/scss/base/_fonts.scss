@@ -2,14 +2,11 @@
    Fonts
    ========================================================================== */
 
-// @font-face {
-// 	font-family:'OpenSans';
-// 	src: url('../fonts/OpenSans-Extrabold.eot');
-// 	src: url('../fonts/OpenSans-Extrabold.eot?#iefix') format('embedded-opentype'),
-// 		url('../fonts/OpenSans-Extrabold.woff') format('woff'),
-// 		url('../fonts/OpenSans-Extrabold.ttf') format('truetype'),
-// 		url('../fonts/OpenSans-Extrabold.otf') format('opentype'),
-// 		url('../fonts/OpenSans-Extrabold.svg#OpenSans') format('svg');
-// 	font-weight: 800;
-// 	font-style: normal;
-// }
+ @font-face {
+ 	font-family:'Regular';
+	src: url('../fonts/MarkScForMCNarrowW00-Rg') format("truetype");
+}
+ @font-face {
+ 	font-family:'Light';
+	src: url('../fonts/MarkForMC-Lt') format("truetype");
+}
